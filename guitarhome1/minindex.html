@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="KO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guitar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #fff;
+        }
+        a {
+            text-decoration: none;
+        }
+        nav a:link, a:visited {
+            color: #fff;
+        }
+        nav a:active {
+            color: yellow;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        p {
+            font-size: 1.3em;
+            line-height: 2.5;
+        }
+        li {
+            font-size: 1em;
+            line-height: 2;
+        }
+        #container {
+            width: 100%;
+        }
+        header {
+            width: 100%;
+            height: 300px;
+            background: url(img/main1.jpg)no-repeat center;
+            background-size: cover;
+        }
+        nav {
+            height: 50px;
+            background-color: #000;
+        }
+        #main_nav {
+            text-align: center;
+            list-style: none;
+            padding: 10px;
+        }
+        #main_nav li {
+            display: inline-block;
+            color: #fff;
+            font-size: 0.8em;
+            margin: 5px 15px;
+        }
+        .photo {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+        .photo img {
+            width: 100%;
+        }
+        footer {
+            background-color: #000;
+        }
+        footer p {
+            text-align: center;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <ul id="main_nav">
+                    <li><a href="#index">home</a></li>
+                    <li><a href="#agreement">회원가입</a></li>
+                    <li><a href="#login">로그인</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <section id="index"><!--하나의 페이지-->
+            <div class="page_title">
+                <h1>home</h1>
+            </div>
+            <div class="content">
+                <div class="photo">
+                    <img src="img/unnamed.jpg" alt="unnamed">
+                </div>
+                <div class="text">
+                    <p>경은어쿠스틱은 365일 연중무휴 영업하고 있습니다.</p>
+                    <p>주차자은 낙원제일주차장과 오라카이 인사동 호텔을 이용하시면 5만원이상 구매시 1시간 지원해드리고있습니다.</p>
+                </div>
+            </div>
+        </section>
+        <section id="login"> <!--순서없이 만들어도 상관없다.-->
+            <div class="page_title">
+                <h1>로그인</h1>
+            </div>
+            <div class="content">
+                <div class="photo">
+                    <img src="img/logion1.png" alt="logo">
+                </div>
+                <div class="text">
+                    <p>로그인을 해주세요</p>
+                </div>
+            </div>
+        </section>
+        <section id="agreement">
+            <div class="page_title">
+                <h1>회원가입</h1>
+            </div>
+            <div class="content">
+                <div class="photo">
+                    <img src="img/agreement1.png" alt="agreement1">
+                </div>
+                <div class="text">
+                    <p>약관 동의</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright © 경은어쿠스틱 쇼핑몰. All Rights Reserved. Hosting by Cafe24 Corp.</p>
+        </footer>
+    </div>
+</body>
+</html>
